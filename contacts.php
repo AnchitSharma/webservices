@@ -13,7 +13,7 @@ include 'crudClass.php';
 $obj = new Classcrud;
 
 $myJSON = array();
-$baseurl = 'http://192.168.56.1/';
+$baseurl = 'http://192.168.56.1/project/';
 
 	
 if(isset($_GET['source'])){
